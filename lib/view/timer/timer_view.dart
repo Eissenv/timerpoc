@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../../utils/colors.dart';
-import '../../../utils/text_styles.dart';
-import '../../../widgets/fade_divider.dart';
-import '../../../widgets/app_button.dart';
-import '../../../widgets/gap.dart';
-import '../../timer/viewmodel/timer_viewmodel.dart';
-import '../../timer/services/ticker.dart';
+import '../../core/theme/colors.dart';
+import '../../core/theme/text_styles.dart';
+import '../../shared/fade_divider.dart';
+import '../../shared/app_button.dart';
+import '../../shared/gap.dart';
+import '../../viewmodel/timer_viewmodel.dart';
+import 'ticker.dart';
 
 class TimerView extends StatelessWidget {
   const TimerView({super.key});

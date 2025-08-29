@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import '../model/timer_state.dart';
-import '../services/ticker.dart';
+import '../view/timer/ticker.dart';
 
 class TimerViewModel extends ChangeNotifier {
   final Ticker _ticker;

@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import '../../../core/router.dart';
+import '../core/router.dart';
 
 class SplashViewModel {
   Timer? _timer;

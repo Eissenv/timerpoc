@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../features/splash/view/splash_view.dart';
-import '../features/timer/view/timer_view.dart';
+import '../view/splash/splash_view.dart';
+import '../view/timer/timer_view.dart';
 
 class AppRoutes {
   static const splash = '/';
